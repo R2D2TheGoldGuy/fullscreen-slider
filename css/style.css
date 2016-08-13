@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Audiowide);
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,400';
 
 html {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px; 
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.5;
 }
 
@@ -15,11 +15,12 @@ html {
 
 h1 { 
   color: #fff;
-  font-family: "Audiowide", cursive;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
   font-size: 2em;
   font-size: 6vw;
-  line-height: 1.2;
-  margin: 0.5em 0 3em;
+  line-height: 1.5;
+  margin: 3em 0 3em;
   text-shadow: 1px 1px 1px #333;
 }
 
@@ -46,8 +47,8 @@ body {
 }
 
 header {
-  background: #3e474f;
-  box-shadow: 0 .5em 1em #111;
+  background: #34495E;
+  box-shadow: 1px 2px 20px #333;
   position: absolute;
   top: 0;
   left: 0;
@@ -56,17 +57,21 @@ header {
 }
 
 header label {
-  color: #788188;
+  color: #BDC3C7;
+  text-shadow: 1px 1px 1px #333;
   cursor: pointer;
   display: inline-block;
   line-height: 4.25em;
-  font-size: .667em;
-  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
   padding: 0 1em;
+  transition: all 0.67s;
 }
 
 header label:hover {
-  background: #2e353b;
+  background: #22313F;
+  color: white;
 }
 
 .slide {
@@ -118,7 +123,11 @@ header label:hover {
 }
 
 @media screen and (min-width: 1025px) {
-  h1 { font-size: 4em; }
+  h1 { 
+    font-size: 5em; 
+    margin: 1em 0 2em;
+  }
+  
 }
 
 
