@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 16px; 
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -13,7 +13,7 @@ html {
 *:after  { box-sizing: inherit; }
 
 
-h1 { 
+h1 {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
@@ -21,7 +21,7 @@ h1 {
   font-size: 6vw;
   line-height: 1.5;
   margin: 3em 0 3em;
-  text-shadow: 1px 1px 1px #333;
+  text-shadow: 2px 3px 4px #000;
 }
 
 /* ===================================
@@ -47,8 +47,8 @@ body {
 }
 
 header {
-  background: #34495E;
-  box-shadow: 1px 2px 20px #333;
+  background: #202744;
+  box-shadow: 1px 1px 10px 1px #000;
   position: absolute;
   top: 0;
   left: 0;
@@ -61,7 +61,7 @@ header label {
   text-shadow: 1px 1px 1px #333;
   cursor: pointer;
   display: inline-block;
-  line-height: 4.25em;
+  line-height: 4em;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -70,7 +70,7 @@ header label {
 }
 
 header label:hover {
-  background: #22313F;
+  background: #121526;
   color: white;
 }
 
@@ -123,11 +123,9 @@ header label:hover {
 }
 
 @media screen and (min-width: 1025px) {
-  h1 { 
-    font-size: 5em; 
+  h1 {
+    font-size: 5em;
     margin: 1em 0 2em;
   }
-  
+
 }
-
-
